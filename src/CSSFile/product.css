@@ -1,0 +1,32 @@
+.custom-card{
+  
+    width: 350px;
+    height: 300px;
+    margin: 15%;
+    margin-right: 6%;
+    border-radius: none;
+  }
+  .rowcard > .col {
+    margin-bottom: -3%; /* Adjust the value to set the desired row gap */
+  }
+
+  .addcartbtn{
+    color:black;
+    border-radius: 5px;
+    font-weight: 400;
+  }
+
+  .flex {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .shopping-card {
+    justify-content: space-between;
+    background-color: #61dafb;
+    padding: 20px 30px;
+  }
+  
+  .product-item {
+    padding: 20px;
+  }

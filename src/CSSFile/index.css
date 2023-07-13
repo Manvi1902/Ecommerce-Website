@@ -1,1 +1,63 @@
+body {
+ margin: 0;
+ background-color: rgb(241, 241, 241);
+}
 
+.navbar{
+
+  position:sticky;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 0 8px 8px -5px rgb(74, 68, 68) ;
+  --webkit-box-shadow:0 10px 8px -5px rgb(74, 68, 68) ;
+  z-index: 0.5;
+  background-color:black;
+  height:90px;
+  width:100%;
+  
+}
+
+.nav-link1{
+  color:white;
+  font-size:medium;
+  font-weight:400;
+  text-transform: uppercase;
+}
+
+.nav-link2{
+  color:white;
+  font-size:smaller;
+  font-weight:400;
+}
+.active{
+border-bottom: 1.5px solid white;
+}
+
+.footer{
+  position:fixed;
+  margin-bottom: 0px;
+  background-color: black;
+  color:white;
+  margin-top:50%;
+  height:25%;
+  width:100%;
+}
+
+
+.slide{
+  height:560px;
+  width:100%;
+
+}
+
+.headline{
+
+  display: block;
+  padding-top: 0px;
+  padding-bottom:20px;
+  width:100%;
+  text-align: center;
+  font-size: xx-large;
+  font-weight: 600;
+  font-style: italic;
+  
+}
